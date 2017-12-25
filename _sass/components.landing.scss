@@ -1,0 +1,45 @@
+
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, $bg-color 0%, #090A0F 100%);
+  overflow: hidden;
+}
+
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    width: 100%;
+  }
+
+  .text-container {
+    color: $text-color;
+    margin: 0 0 0 8%;
+
+    h1 {
+      font-size: 4.8em;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 4.2em;
+      margin: 10px 0 0 0;
+    }
+
+    p {
+      margin-left: 7px;
+      margin-top: 50px;
+
+      a {
+        color: #fff;
+      }
+
+      svg {
+        margin-right: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @extend .raleway;
+  font-weight: 300;
+}
+
+p {
+  @extend .open-sans;
+}
